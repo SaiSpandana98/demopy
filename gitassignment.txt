@@ -1,0 +1,28 @@
+1) sign in into github
+create new repository
+create file
+
+2)new folder created in Downloads
+  cd Downloads/<folder_name>
+  $ git init
+  $ git clone URL
+  $ git add <example.txt> #some changes are made to example.txt 
+  $ git commit -m "change example.txt"
+  $ git push origin master
+  
+3) $ git status
+
+4) $ git ignore <example.txt>
+
+5) get the commit hash from $ git log
+   $ git revert <commit hash>
+
+6) $ git pull
+   $ git checkout -b <new_branch_name>
+   $ git push origin <new_branch_name>
+   $ git remote add <name_of_our_remote> <new_branch_name>
+   $ git push <name_of_new_remote> <URL>
+   $ git fetch <name_of_our_remote>
+   $ git merge <name_of_our_remote>/<branch_name to be merged into>
+
+7) $ git commit -m "message" <file_path> 
