@@ -6,7 +6,10 @@ create file
   cd Downloads/<folder_name>
   $ git init
   $ git clone URL
-  $ git add <example.txt> #some changes are made to example.txt 
+  $ git config --global user.email <email>
+  $ git config --global user.name <username>
+  $ git add <example.txt> 
+  #some changes are made to example.txt 
   $ git commit -m "change example.txt"
   $ git push origin master
   
