@@ -15,7 +15,8 @@ create file
   
 3) $ git status
 
-4) $ git ignore <example.txt>
+4) $ git rm --cached <name_of_file> 
+      #It deletes the file in the repo, but since it was in the .gitignore file, the local copy was not deleted
 
 5) get the commit hash from $ git log
    $ git revert <commit hash>
